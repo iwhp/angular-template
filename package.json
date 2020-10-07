@@ -1,6 +1,6 @@
 {
   "name": "angular-template",
-  "version": "2.0.13",
+  "version": "2.4.0",
   "description": "Angular-Like HTML Template",
   "main": "index.js",
   "scripts": {
@@ -14,18 +14,27 @@
     "name": "Allen Kim",
     "email": "allenhwkim@gmail.com"
   },
+  "contributors": [
+    {
+      "name": "Domas Trijonis",
+      "email": "domas.trijonis@gmail.com"
+    },
+    {
+      "name": "Fabiel León",
+      "email": "fabiel.leon.oliva@gmail.com"
+    }
+  ],
   "license": "MIT",
   "dependencies": {
-    "cheerio": "^0.22.0",
-    "extend": "^2.0.1",
-    "js-template": "~0.1.3"
+    "cheerio": "^1.0.0-rc.2",
+    "js-template": "~0.1.4"
   },
   "devDependencies": {
-    "gulp": "~3.8.5",
-    "gulp-bump": "~0.1.10",
-    "gulp-shell": "~0.2.7",
-    "gulp-tap": "~0.1.1",
-    "gulp-util": "~2.2.19",
-    "jasmine": "^2.5.3"
+    "gulp": "~3.9.1",
+    "gulp-bump": "~2.7.0",
+    "gulp-shell": "~0.6.3",
+    "gulp-tap": "~1.0.1",
+    "gulp-util": "~3.0.8",
+    "jasmine": "^2.7.0"
   }
 }
